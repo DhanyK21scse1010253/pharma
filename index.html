@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <div class="logo">
+            <h1>HealthPlus Pharmacy</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="Medicines.html">Medicines</a></li>
+                <li><a href="About.html">About us</a></li>
+                <li><a href="Contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="slider-container">
+    
+        <!-- Left Scroll Button -->
+        <button class="scroll-btn left-btn" id="scroll-left-btn">&#9664;</button>
+
+        <!-- Image Wrapper for Horizontal Scrolling -->
+        <div class="image-wrapper" id="image-wrapper">
+            <img src="m4.png" alt="Image 1" class="slider-image">
+            <img src="m4.png" alt="Image 2" class="slider-image">
+            <img src="m4.png" alt="Image 3" class="slider-image">
+            <img src="m4.png" alt="Image 4" class="slider-image">
+        </div>
+
+        <!-- Right Scroll Button -->
+        <button class="scroll-btn right-btn" id="scroll-right-btn">&#9654;</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Your Health, Our Priority</h2>
+        <p>Get your medicines delivered to your doorstep.</p>
+        <button onclick="shopNow()">Shop Now</button>
+    </section>
+    
+
+    <!-- Featured Products -->
+    <section class="featured">
+        <h2>Featured Medicines</h2>
+        <div class="product-grid">
+            <div class="product">
+                <img src="medicine1.jpg" alt="Medicine 1">
+                <h3>Pain Relief Tablets</h3>
+                <p>Price: $15</p>
+            </div>
+            <div class="product">
+                <img src="medicine2.jpg" alt="Medicine 2">
+                <h3>Vitamin C Supplements</h3>
+                <p>Price: $10</p>
+            </div>
+            <div class="product">
+                <img src="medicine3.jpg" alt="Medicine 3">
+                <h3>Allergy Relief</h3>
+                <p>Price: $12</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 HealthPlus Pharmacy. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
